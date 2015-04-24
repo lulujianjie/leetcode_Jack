@@ -20,7 +20,7 @@ public:
 		int pos = 0;
 		if( n <= 1) return n;
 		for(int i = 1; i <= n-1; i++){
-			if(A[pos] != A[i]){ //if this element is different from the next one ,then let the next o
+			if(A[pos] != A[i]){ //if this element is different from the next one ,then let the next one join in.
 				A[++pos] = A[i];
 			}
 			
